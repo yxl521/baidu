@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.mapper.BaiduMapper" >
+
+<!--<select id="selectStaffList" resultType="com.jk.model.Staff">
+   SELECT
+    c.ssection,
+    p.pposition,
+    s.password,
+    s.pay,
+    s.sid,
+    s.sname,
+    s.text
+     FROM
+    t_pposition p,
+    t_ssection c,
+    t_staff s
+    where s.position=p.pid
+    and s.section=c.cid
+</select>
+ <select id="querySection" resultType="com.jk.model.Section">
+   select * from t_ssection
+ </select>
+
+ <select id="querySection2" resultType="com.jk.model.Position">
+   select * from t_pposition
+ </select>
+
+ <insert id="addStaff">
+    insert into t_staff(sname,text,pay,position,section) values (#{sname},#{text},#{pay},#{position},#{section})
+ </insert>-->
+    <!--
+        <delete id="deleteBook">
+            delete from t_book where bookid=#{bookid}
+        </delete>
+
+        <insert id="addBook" useGeneratedKeys="true" keyProperty="bookid">
+            insert into t_book(bookname,bookauthor,bookprice) values (#{bookname},#{bookauthor},#{bookprice})
+        </insert>
+
+        <select id="toupdate" resultType="com.jk.model.Book">
+            select * from t_book where bookid=#{bookid}
+        </select>-->
+
+</mapper>
