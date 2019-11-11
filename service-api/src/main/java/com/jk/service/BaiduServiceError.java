@@ -8,4 +8,8 @@ public class BaiduServiceError implements BaiduService2{
     public void test(){
         System.out.println("测试方法请求");
     }
+
+    public String getBaiduName() {
+        return null;
+    }
 }
